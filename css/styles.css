@@ -41,9 +41,9 @@ img {
 .header {
   padding: 25px 0;
   border-bottom: 1px solid #ececec;
-  position: sticky;
-  z-index: 2;
-  top: 0;
+  /* position: sticky; */
+  /* z-index: 2; */
+  /* top: 0; */
   background-color: #fff;
 }
 .header-container {
@@ -578,4 +578,30 @@ img {
 .container-link .social-link:hover,
 .container-link .social-link:focus {
   background-color: var(--hover-link-color);
+}
+.background-window {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.modal-form-window {
+  position: absolute;
+  width: 528px;
+  min-height: 580px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  border: 1px solid red;
+  background-color: #fff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+.modal-button {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
