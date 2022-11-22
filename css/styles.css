@@ -621,13 +621,13 @@ img {
   background-color: transparent;
   transform: scale(1);
   transition: background-color 500ms 550ms linear, fill 550ms 550ms linear,
-    transform 500ms 500ms linear;
+    transform 480ms 500ms linear;
   fill: #000;
 }
 .background-window.is-hidden .modal-button {
   background-color: var(--background-button-color);
   fill: #fff;
-  transform: scale(1.5);
+  transform: scale(1.4);
 }
 
 /*----------- OK -----------*/
